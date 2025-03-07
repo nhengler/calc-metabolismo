@@ -16,10 +16,15 @@ function fazerCalculo(){
     let botaoSugestao = document.createElement('button'); // cria o botão de sugestão no HTML
     botaoSugestao.textContent = "Visualizar cardápio";
     botaoSugestao.id = "exibirCardapio"; // id para editar no css
-    resultado.appendChild(botaoSugestao);
+    resultado.appendChild(botaoSugestao); // método que adiciona "botaoSugestao" na div "resultado" 
     botaoSugestao.addEventListener('click', function(){
-        window.open("cardapio.html"); // abre cardapio.html em outra guia
-    });    
-}    
+        if(valorResultado <= 2000){
+            window.open("cardapio1.html"); // abre cardapio1.html em outra guia
+        }   else if (valorResultado > 2000 && valorResultado <= 2500){
+            window.open("cardapio2.html"); // abre cardapio2.html em outra guia
+        }
+        });
+    };    
+    
 
 document.getElementById('exibirResultado').addEventListener('click', fazerCalculo);
