@@ -24,7 +24,6 @@ function fazerCalculo(){
             window.open("cardapio2.html"); // abre cardapio2.html em outra guia
         }
         });
-    };    
+    }    
     
-
 document.getElementById('exibirResultado').addEventListener('click', fazerCalculo);
