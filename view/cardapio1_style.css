@@ -1,0 +1,20 @@
+#corpo_cardapio1 {
+    display: flex;
+    justify-content: center;  /* centraliza o conteúdo horizontalmente */
+    align-items: center;      /* centraliza o conteúdo verticalmente */
+    min-height: 100vh;        /* Garante que o body ocupe toda a tela */
+    background-color: #ffffff;
+}
+
+#container_cardapio1 {
+    display: flex;            
+    flex-direction: column;   /* organiza os elementos verticalmente */      
+    border: 2px solid red;    
+    padding: 20px;            
+    width: 80%;               
+    max-width: 600px;         /* limita a largura máxima */
+}
+/*tentar delimitar um padding específico pra cada item para não ter diferença de espaçamento 
+da borda inicial entre as refeições*/
+
+
