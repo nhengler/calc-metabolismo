@@ -1,0 +1,18 @@
+#corpo_cardapio2 {
+    display: flex;
+    justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+    align-items: center;      /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh;        /* Garante que o body ocupe toda a tela */
+    background-color: #ffffff;
+}
+
+#container_cardapio2 {
+    display: flex;            /* Torna o container flexível */
+    flex-direction: column;   /* Organiza os elementos verticalmente */
+    border: 2px solid red;    /* Borda visível */
+    padding: 20px;            /* Dá um espaçamento interno */
+    width: 80%;               /* Define uma largura para o container */
+    max-width: 600px;         /* Limita a largura máxima */
+}
+
+
