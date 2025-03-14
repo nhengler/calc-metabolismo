@@ -1,0 +1,45 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+#home_background{
+    display: flex;
+    flex-direction: column;   /* organiza os elementos verticalmente */
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+#nav-bar{
+    position: absolute;
+    background-color: #423f3f;
+    width: 100%;
+    height: 10%;
+}
+
+#nav-list{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding-left: 500px;
+    padding-top: 2%;
+}
+
+#nav-list li{
+    list-style-type: none;
+    padding-left: 70px;
+}
+
+#nav-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo-nav{
+    position: absolute; 
+    width: 10%;
+    height: 90%;
+}
