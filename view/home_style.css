@@ -10,25 +10,40 @@
 }
 
 #nav-bar{
+    display: flex;
     position: absolute;
     background-color: #423f3f;
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
 }
 
 #nav-list{
-    position: relative;
     display: flex;
+    position: relative;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     list-style: none;
-    padding-left: 500px;
-    padding-top: 2%;
+    width: 90%;
+    height: 80%;
+    padding-right: 75%;
+    border: 1px red solid;
 }
 
 #nav-list li{
     list-style-type: none;
-    padding-left: 70px;
+    display: flex;
+    position: relative;
+    margin-left: 40%;
+    padding-top: 20%;
+    
+    border: 1px seagreen solid;
+}
+
+#home-icon{
+    width: 5%;
+    height: 5%;
 }
 
 #nav-list a{
@@ -39,7 +54,10 @@
 }
 
 #logo-nav{
-    position: absolute; 
+    display: flex;
+    position: relative; 
     width: 10%;
     height: 90%;
+    
 }
+
